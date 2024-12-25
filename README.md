@@ -57,7 +57,7 @@ Spring Boot microservice-based application to manage orders, products, inventory
 Use pre-built Docker images for a fast and straightforward way to run the application:
 
 1. Clone the repository or download the
-   [docker-compose.yaml](https://github.com/micaellobo/e-commerce-store/raw/master/deployment/docker-compose.yaml)
+   [docker-compose.yaml](https://github.com/ashish67876/eCommerce-back-end/raw/master/deployment/docker-compose.yaml)
 2. Run the following command:
 
         cd deployment && docker-compose up -d
@@ -74,13 +74,13 @@ slower do the fact that it's building the images from scratch:
 
 For smoother local development, it's recommended to have `Java 17` or higher and `Maven` installed. You can also
 configure the essential infrastructure
-using [docker-compose-infra.yaml](https://github.com/micaellobo/e-commerce-store/raw/master/deployment/docker-compose-infra.yaml). \
+using [docker-compose-infra.yaml](https://raw.githubusercontent.com/ashish67876/eCommerce-back-end/refs/heads/main/deployment/docker-compose-infra.yaml). \
 Run each service individually with `mvn spring-boot:run`.
 
 ### Exploring and Interacting with API
 
 - **Swagger:** http://localhost:8080/swagger
-- **Postman Collection:** [postman.json](https://github.com/micaellobo/e-commerce-store/raw/master/documentation/postman.json)
+- **Postman Collection:** [postman.json](https://github.com/ashish67876/eCommerce-back-end/raw/master/documentation/postman.json)
 
 # Next Steps and Improvements
 
