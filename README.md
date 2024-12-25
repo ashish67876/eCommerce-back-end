@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # e-commerce-store
 
 Spring Boot microservice-based application to manage orders, products, inventory and product reviews.
@@ -92,3 +93,7 @@ are a few ideas:
 - [ ] **CI/CD:** Set up pipelines to automate testing and deployment processes with `Jenkins`. Currently
   using `GitHub Actions` to build and push microservices Docker images to `Docker Hub`.
 - [ ] **Container Orchestration:** Explore container orchestration platforms like `Kubernetes`.
+=======
+# eCommerce-back-end
+eCommerce-back-end
+>>>>>>> fa74525 (Initial commit)
